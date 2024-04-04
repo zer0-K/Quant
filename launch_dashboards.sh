@@ -8,13 +8,13 @@ session_ID=$(date +"%Y-%m-%d_%H:%M:%S")
 
 
 # create pid list file
-path_pids=${PROJECT_PATH}/process_pids_${session_ID}.txt
+path_pids=${QUANT_PATH}/process_pids_${session_ID}.txt
 touch $path_pids
 echo "File containing the dashboard subprocess pids created at $path_pids"
 
 
 # create log file
-path_log=${PROJECT_PATH}/logs/Dashboards/log_all_dashboards_${session_ID}.txt
+path_log=${QUANT_PATH}/logs/Dashboards/log_all_dashboards_${session_ID}.txt
 touch $path_log
 
 
