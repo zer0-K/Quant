@@ -1,5 +1,5 @@
 .vscode
 logs
-*/__pycache__*
-*/plotlogs*
-*/results*
+/**/__pycache__*
+/**/plotlogs*
+/**/results*
