@@ -7,6 +7,8 @@ Before all, set up the following environment variable so that all the programs k
 export QUANT\_PATH=/home/adrien/Programmation/Projets/Quant
 
 Other environment variables:
+
+Verbose print:
 export QUANT\_VERBOSE=true
 
 
