@@ -3,13 +3,20 @@ Quant stuff
 
 # Environment variables
 
-Before all, set up the following environment variable so that all the programs know where the root directory of the project is :
+Before all, you need to set up the environment variables by modifying and running the init.sh file.
+For example, you will set up the path of the project with :
 export QUANT\_PATH=/home/adrien/Programmation/Projets/Quant
 
-Other environment variables:
+The main environment variables are :  
 
-Verbose print:
-export QUANT\_VERBOSE=true
+## Variables you need to change
+
+- QUANT\_PATH : project path
+- QUANT\_DATA_PATH : data path (where you save and get datasets)
+
+## Other variables
+
+- QUANT\_VERBOSE : true to activate verbose mode
 
 
 

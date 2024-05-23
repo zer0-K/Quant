@@ -7,6 +7,8 @@ verbose = bool(os.environ["QUANT_VERBOSE"])
 
 def get_test_input_generator(cwd: str, input_format: int = 0) -> Generator[list, None, None]:
 
+    cwd = os.path.join(cwd, "inputs")
+    
     files = ";".join(os.listdir(cwd))
     if input_format == 0 :
         # format 0 : csv containing a list of values

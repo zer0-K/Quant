@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# run the init.sh file first
+
 
 ########### logging ###########
 
