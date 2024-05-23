@@ -1,0 +1,3 @@
+/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles/trading.dir
+/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles/edit_cache.dir
+/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles/rebuild_cache.dir

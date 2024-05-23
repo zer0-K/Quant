@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/trading.dir/src/main.cpp.o CMakeFiles/trading.dir/src/Products/Options/OptionCall.cpp.o -o trading
