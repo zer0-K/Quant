@@ -67,3 +67,10 @@ def run_generic_test(test_func, algo_dir: str, algo_base_file_name: str):
     
     return all_res
  
+def print_test_passed(is_passed: bool):
+
+    if not passed:
+        print("Test failed : " + base_filename_for_logs)
+    else:
+        print("Test passed : " + base_filename_for_logs)
+

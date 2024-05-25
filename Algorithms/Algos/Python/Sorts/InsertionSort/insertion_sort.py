@@ -5,7 +5,7 @@ import pandas
 ##### global variables
 
 QUANT_PATH = os.environ["QUANT_PATH"]
-curr_algo_dir = os.path.join(QUANT_PATH, "Algorithms", "Algos", "Sorts", "InsertionSort")
+curr_algo_dir = os.path.join(QUANT_PATH, "Algorithms", "Algos", "Python", "Sorts", "InsertionSort")
 base_filename_for_logs = "insertion_sort_py"
 file_name = ""
 
@@ -14,7 +14,7 @@ file_name = ""
 
 sys.path.append(QUANT_PATH)
 
-from Algorithms.Utils.Tests.generic_test_run import run_generic_test
+from Algorithms.Utils.Tests.generic_test_run import run_generic_test, print_test_passed
 from Algorithms.Utils.Lists.list_utils import is_sorted
 from Algorithms.Utils.Tests.cli_args import do_we_log_result, do_we_log_steps
 
@@ -74,6 +74,7 @@ def run_insertion_sort_all():
         run_insertion_sort_inplace,
         run_insertion_sort_inplace_steps
     ]
+
     for test_func in funcs_to_run:
 
         res = run_generic_test(test_func, curr_algo_dir, base_filename_for_logs)
@@ -83,18 +84,19 @@ def run_insertion_sort_all():
             for result in res["all_res"]:
                 passed &= is_sorted(l=result["res"]["output"])
 
-    if not passed:
-        print("Test failed : " + base_filename_for_logs)
-    else:
-        print("Test passed : " + base_filename_for_logs)
+    print_test_passed(passed)
  
 
 if __name__ == "__main__":
 
     print("Current working directory : " + curr_algo_dir)
 
+    func_to_run = None
     if do_we_log_result(sys.argv):
-        run_generic_test(run_insertion_sort_inplace, curr_algo_dir, base_filename_for_logs)
+        func_to_run = run_insertion_sort_inplace
         
     if do_we_log_steps(sys.argv):
-        run_generic_test(run_insertion_sort_inplace_steps, curr_algo_dir, base_filename_for_logs)         
+        func_to_run = run_insertion_sort_inplace_steps         
+
+    if func_to_run != None:
+        run_generic_test(func_to_run, curr_algo_dir, base_filename_for_logs)
