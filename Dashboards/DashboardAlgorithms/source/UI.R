@@ -25,18 +25,68 @@ ui <- fluidPage(
       width = 9,
       tabsetPanel(
         tabPanel("Summary",
+          br(),
           "This dashboard displays the results of the algorithms."
         ),
         tabPanel("Display",
-          "Display plot log. Selected file :",
-          textOutput("selected_file"),
-          actionButton("button_load_plotlog",
-            "Load plot log"
+          br(),
+          "Load plog data before all",
+          br(),
+          fluidRow(
+            column(2,
+              "Display plot log. Selected file :"
+            ),
+            column(2,
+              textOutput("selected_file")
+            ),
+            column(2,
+              actionButton("button_load_plotlog",
+                "Load plot log"
+              )
+            )
           ),
           tabsetPanel(
             tabPanel("Raw data",
+              br(),
               "Raw plot log data",
+              br(),
               verbatimTextOutput("raw_plotlog_data")
+            ),
+            tabPanel("Manual algo manip",
+              br(),
+              "Visualize algo execution manually",
+              br(),
+              fluidRow(
+                column(2,
+                  textOutput("text_step_deepness")
+                ),
+                column(2,
+                  actionButton("button_decrement_step_deepness",
+                    "-"
+                  )
+                ),
+                column(2,
+                  actionButton("button_increment_step_deepness",
+                    "+"
+                  )
+                )
+              ),
+              br(),
+              fluidRow(
+                column(2,
+                  textOutput("text_step")
+                ),
+                column(2,
+                  actionButton("button_decrement_step",
+                    "-"
+                  )
+                ),
+                column(2,
+                  actionButton("button_increment_step",
+                    "+"
+                  )
+                )
+              )
             )
           )
         )

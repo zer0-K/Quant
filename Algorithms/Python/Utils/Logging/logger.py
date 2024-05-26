@@ -5,7 +5,7 @@ import re
 
 sys.path.append(os.environ["QUANT_PATH"])
 
-from Algorithms.Utils.Tests.tests_logging import get_new_result_file_name, get_new_plotlog_file_name
+from Algorithms.Python.Utils.Tests.tests_logging import get_new_result_file_name, get_new_plotlog_file_name
 
 
 class logger:

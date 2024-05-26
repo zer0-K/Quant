@@ -5,7 +5,7 @@ import pandas
 ##### global variables
 
 QUANT_PATH = os.environ["QUANT_PATH"]
-curr_algo_dir = os.path.join(QUANT_PATH, "Algorithms", "Algos", "Python", "Sorts", "InsertionSort")
+curr_algo_dir = os.path.join(QUANT_PATH, "Algorithms", "Python", "Algos", "Sorts", "InsertionSort")
 base_filename_for_logs = "insertion_sort_py"
 file_name = ""
 
@@ -14,9 +14,9 @@ file_name = ""
 
 sys.path.append(QUANT_PATH)
 
-from Algorithms.Utils.Tests.generic_test_run import run_generic_test, print_test_passed
-from Algorithms.Utils.Lists.list_utils import is_sorted
-from Algorithms.Utils.Tests.cli_args import do_we_log_result, do_we_log_steps
+from Algorithms.Python.Utils.Tests.generic_test_run import run_generic_test, print_test_passed
+from Algorithms.Python.Utils.Lists.list_utils import is_sorted
+from Algorithms.Python.Utils.Tests.cli_args import do_we_log_result, do_we_log_steps
 
 
 def run_insertion_sort_inplace(input_: list, res: dict = {"res":{}}):
@@ -51,6 +51,7 @@ def run_insertion_sort_inplace_steps(input_: list, res: dict = {"res":{}, "res_s
         i = j-1
         while i>=0 and input_[i]>element:
             input_[i+1] = input_[i]
+            input_[i] = element
             i -= 1
 
             step["steps"].append(input_.tolist())

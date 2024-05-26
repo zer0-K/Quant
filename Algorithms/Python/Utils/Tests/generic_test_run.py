@@ -5,9 +5,9 @@ import time
 verbose = os.environ["QUANT_VERBOSE"]
 sys.path.append(os.environ["QUANT_PATH"])
 
-from Algorithms.Utils.Tests.input_enumerate import get_test_input_generator
-from Algorithms.Utils.Tests.cli_args import do_we_log_result, do_we_log_steps, get_log_file_name_extension
-from Algorithms.Utils.Logging.logger import logger_res, logger_steps
+from Algorithms.Python.Utils.Tests.input_enumerate import get_test_input_generator
+from Algorithms.Python.Utils.Tests.cli_args import do_we_log_result, do_we_log_steps, get_log_file_name_extension
+from Algorithms.Python.Utils.Logging.logger import logger_res, logger_steps
 
 
 def run_generic_test_single(test_func, input_):
