@@ -1,6 +1,7 @@
 
+# Types of markets by product type
 
-1. Capital Markets
+## 1. Capital Markets
 
 Capital markets are where long-term securities (usually with maturities of more than a year) are traded. They help raise long-term funds for businesses, governments, and other organizations.
 Subtypes of Capital Markets:
@@ -8,7 +9,7 @@ Subtypes of Capital Markets:
     Primary Market: This is where new securities are issued for the first time. Companies raise funds through Initial Public Offerings (IPOs), bond issues, etc.
     Secondary Market: This is where previously issued securities are bought and sold. Examples include stock exchanges like the NYSE or NASDAQ.
 
-2. Money Markets
+## 2. Money Markets
 
 Money markets deal with short-term borrowing and lending, typically with maturities of less than one year. They provide liquidity to the financial system and are crucial for managing short-term funding needs.
 Subtypes of Money Markets:
@@ -17,7 +18,7 @@ Subtypes of Money Markets:
     Commercial Paper: Short-term debt instruments issued by corporations.
     Repurchase Agreements (Repos): Short-term borrowing using securities as collateral.
 
-3. Foreign Exchange (Forex or FX) Markets
+## 3. Foreign Exchange (Forex or FX) Markets
 
 The foreign exchange market is where currencies are traded. It is the largest and most liquid financial market in the world.
 Subtypes of Forex Markets:
@@ -26,7 +27,7 @@ Subtypes of Forex Markets:
     Forward Market: Contracts are made to buy or sell currencies at a future date at a predetermined rate.
     Futures Market: Similar to forward markets, but standardized and traded on exchanges.
 
-4. Derivatives Markets
+## 4. Derivatives Markets
 
 Derivatives markets are where contracts based on the value of underlying assets (stocks, bonds, commodities, etc.) are traded. Derivatives can be used for hedging or speculative purposes.
 Subtypes of Derivatives Markets:
@@ -35,7 +36,7 @@ Subtypes of Derivatives Markets:
     Options Markets: Contracts that give the right, but not the obligation, to buy or sell an asset at a specific price within a set time frame.
     Swap Markets: Contracts in which two parties agree to exchange cash flows or other financial instruments, such as interest rate swaps or currency swaps.
 
-5. Commodity Markets
+## 5. Commodity Markets
 
 Commodity markets are where raw materials or primary agricultural products are traded. These can include physical goods or futures contracts on these goods.
 Subtypes of Commodity Markets:
@@ -43,7 +44,7 @@ Subtypes of Commodity Markets:
     Physical Commodity Markets: Where the actual goods are bought and sold (e.g., gold, oil, agricultural products).
     Futures Commodity Markets: Where contracts for future delivery of commodities are traded, often used for hedging or speculation.
 
-6. Insurance Markets
+## 6. Insurance Markets
 
 Insurance markets are where companies and individuals buy and sell insurance products. The purpose is to manage risk, particularly in terms of health, life, property, and liability insurance.
 Subtypes of Insurance Markets:
@@ -51,7 +52,7 @@ Subtypes of Insurance Markets:
     Life Insurance Market: Deals with products that provide financial support in the event of death or other life events.
     Non-Life Insurance Market: Deals with products that cover risks such as health, auto, home, and business insurance.
 
-7. Bond Markets
+## 7. Bond Markets
 
 Bond markets involve the buying and selling of debt securities issued by governments, municipalities, or corporations. Bonds are essentially loans that are repaid over time with interest.
 Subtypes of Bond Markets:
@@ -60,7 +61,7 @@ Subtypes of Bond Markets:
     Municipal Bond Market: Bonds issued by local government entities (e.g., cities, states).
     Corporate Bond Market: Bonds issued by corporations to raise capital.
 
-8. Equity Markets
+## 8. Equity Markets
 
 Equity markets are where shares of stock (equity) are bought and sold. These markets provide companies with access to capital in exchange for ownership interests.
 Subtypes of Equity Markets:
@@ -68,7 +69,7 @@ Subtypes of Equity Markets:
     Stock Exchanges: Organized venues like the New York Stock Exchange (NYSE), NASDAQ, London Stock Exchange (LSE), where stocks are listed and traded.
     Over-the-Counter (OTC) Markets: A decentralized market where securities not listed on exchanges are traded.
 
-9. Real Estate Markets
+## 9. Real Estate Markets
 
 Real estate markets deal with the buying, selling, and leasing of property. These markets are important for both residential and commercial properties.
 Subtypes of Real Estate Markets:
@@ -76,7 +77,7 @@ Subtypes of Real Estate Markets:
     Residential Real Estate: Buying and selling of residential properties.
     Commercial Real Estate: Deals with properties used for business purposes, such as office buildings, industrial spaces, and shopping centers.
 
-10. Private Equity Markets
+## 10. Private Equity Markets
 
 Private equity markets involve investments in private companies (those not listed on a public exchange). Investors in private equity seek to gain a stake in businesses with growth potential.
 Subtypes of Private Equity Markets:
@@ -84,7 +85,7 @@ Subtypes of Private Equity Markets:
     Venture Capital: Investment in early-stage companies with high growth potential.
     Buyouts: Investments where an entity acquires a controlling interest in an existing business.
 
-11. Cryptocurrency Markets
+## 11. Cryptocurrency Markets
 
 Cryptocurrency markets involve the trading of digital currencies like Bitcoin, Ethereum, and other blockchain-based assets.
 Subtypes of Cryptocurrency Markets:
@@ -92,7 +93,7 @@ Subtypes of Cryptocurrency Markets:
     Spot Markets: Where cryptocurrencies are bought and sold for immediate delivery.
     Derivatives Markets: Where contracts based on cryptocurrencies (e.g., futures, options) are traded.
 
-12. Auction Markets
+## 12. Auction Markets
 
 Auction markets are venues where financial instruments are sold to the highest bidder. These markets provide price discovery and liquidity.
 Subtypes of Auction Markets:
@@ -100,3 +101,112 @@ Subtypes of Auction Markets:
     Primary Auction Markets: For the initial offering of securities, like government bonds or stocks.
     Secondary Auction Markets: For the buying and selling of previously issued securities.
 
+
+# Market types
+
+## 1. Over-the-Counter (OTC) Markets vs. Organized/Exchange-Traded Markets
+
+### OTC Markets
+
+These are decentralized markets where participants trade directly with each other without a centralized exchange.
+Trades are typically conducted via dealer networks, and the terms of the trade (price, quantity, etc.) are negotiated privately.
+Examples include the OTC markets for bonds, certain derivatives, and some stocks (e.g., penny stocks).
+
+### Organized/Exchange-Traded Markets
+
+These are centralized markets where trading occurs on a formal exchange (e.g., NYSE, NASDAQ, LSE).
+Trades are standardized, and the exchange acts as an intermediary, ensuring transparency, liquidity, and settlement.
+Examples include stock exchanges, futures exchanges, and options exchanges.
+
+## 2. Primary Markets vs. Secondary Markets
+
+### Primary Markets
+
+These are markets where new securities are issued and sold for the first time (e.g., IPOs, bond issuances).
+The primary market facilitates capital raising for companies, governments, or other entities.
+
+### Secondary Markets
+
+These are markets where existing securities are traded among investors (e.g., stock exchanges).
+The secondary market provides liquidity and price discovery for securities.
+
+## 3. Auction Markets vs. Dealer Markets
+
+### Auction Markets
+
+In these markets, buyers and sellers submit bids and offers simultaneously, and trades are executed when a match is found (e.g., stock exchanges).
+Prices are determined through the competitive bidding process.
+
+### Dealer Markets
+
+In these markets, dealers (market makers) provide liquidity by quoting buy (bid) and sell (ask) prices for securities.
+Trades are executed directly with the dealer (e.g., OTC markets, forex markets).
+
+## 4. Spot Markets vs. Futures/Forward Markets
+
+### Spot Markets:
+
+These are markets where financial instruments are traded for immediate delivery (e.g., spot forex, spot commodity markets).
+Settlement typically occurs within a short time frame (e.g., T+2 for stocks).
+
+### Futures/Forward Markets:
+
+These are markets where contracts are traded for delivery of assets at a future date (e.g., futures contracts, forward contracts).
+Used for hedging, speculation, or arbitrage.
+
+## 5. Domestic Markets vs. International Markets
+
+### Domestic Markets:
+
+These markets operate within a single country and are primarily used by domestic investors (e.g., the U.S. stock market for U.S. investors).
+
+### International Markets:
+
+These markets allow for cross-border trading of securities (e.g., Eurobond markets, global stock exchanges).
+
+## 6. Electronic Markets vs. Physical Markets
+
+### Electronic Markets:
+
+These markets use electronic platforms for trading, with no physical trading floor (e.g., NASDAQ, most forex markets).
+
+### Physical Markets:
+
+These markets have a physical location where trading occurs (e.g., the NYSE trading floor).
+
+## 7. Wholesale Markets vs. Retail Markets
+
+### Wholesale Markets:
+
+These markets cater to large institutional investors and involve high-value transactions (e.g., interbank forex markets, bond markets).
+
+### Retail Markets:
+
+These markets cater to individual investors and involve smaller transactions (e.g., retail forex brokers, stock trading platforms).
+
+## 8. Public Markets vs. Private Markets
+
+### Public Markets:
+
+These markets are open to the general public, and securities are traded on regulated exchanges (e.g., stock markets).
+
+### Private Markets:
+
+These markets involve the trading of securities that are not listed on public exchanges (e.g., private equity, venture capital).
+
+## 9. Continuous Markets vs. Call Markets
+
+### Continuous Markets:
+
+In these markets, trading occurs continuously throughout the trading day (e.g., most stock exchanges).
+
+### Call Markets:
+
+In these markets, trading occurs at specific intervals, and all orders are executed at a single price (e.g., some commodity markets, certain auction-based systems).
+
+
+# Market semi-quantitative properties
+
+## Regulation
+
+## liquidity

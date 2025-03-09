@@ -17,27 +17,30 @@ endif (CXX)
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH})
 set(CMAKE_BUILD_TYPE Debug)
 
+# **************************************** agents
+
+# ******************** common/"global"
+
+set(HEADERS_AGENTS 
+    src/Agents/AgentIdentity.hpp src/Agents/AgentRole.hpp src/Agents/Agent.hpp 
+)
+
+set(SOURCES_AGENTS     
+    src/Agents/AgentIdentity.cpp src/Agents/AgentRole.cpp src/Agents/Agent.cpp 
+)
 
 # **************************************** markets
-
-# ******************** common
-
-set(HEADERS_MKT_ 
-    #src/Markets/
-)
-
-set(SOURCES_MKT     
-    #src/Markets/
-)
 
 # ******************** common/"global"
 
 set(HEADERS_MARKETS 
-    src/Markets/Market.hpp src/Markets/MarketBuilder.hpp src/Markets/MarketUtils.hpp
+    src/Markets/MarketTypes.hpp src/Markets/Market.hpp src/Markets/MarketBuilder.hpp 
+    src/Markets/MarketUtils.hpp
 )
 
 set(SOURCES_MARKETS     
-    src/Markets/Market.cpp src/Markets/MarketBuilder.cpp src/Markets/MarketUtils.cpp
+    src/Markets/MarketTypes.cpp src/Markets/Market.cpp src/Markets/MarketBuilder.cpp 
+    src/Markets/MarketUtils.cpp
 )
 
 

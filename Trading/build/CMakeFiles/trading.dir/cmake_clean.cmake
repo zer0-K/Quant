@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/trading.dir/src/Markets/Market.cpp.o.d"
   "CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o"
   "CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o.d"
+  "CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o"
+  "CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o.d"
   "CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o"
   "CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o.d"
   "CMakeFiles/trading.dir/src/Products/Options/CallEuropean.cpp.o"

@@ -1,0 +1,330 @@
+The agents have a role and an identity.
+For example role = market marker, identity = investment bank 
+
+# Functional roles
+
+## 1. Market Makers
+
+Provide liquidity by continuously quoting bid and ask prices.
+
+Active in: Equity markets, Forex, Derivatives, Commodities.
+
+## 2. Speculators
+
+Take on risk to profit from price movements, without hedging.
+
+Active in: Equity markets, Forex, Derivatives, Commodities, Cryptocurrencies.
+
+## 3. Arbitrageurs
+
+Exploit price discrepancies across markets or instruments for risk-free profits.
+
+Active in: Equity markets, Forex, Derivatives, Cryptocurrencies.
+
+## 4. Hedgers
+
+Mitigate risk by taking offsetting positions in related assets.
+
+Active in: Commodities, Derivatives, Forex, Interest rate markets.
+
+## 5. Investors (Long-Term)
+
+Allocate capital with the expectation of long-term growth or income.
+
+Active in: Equity markets, Bond markets, Real estate, Private equity.
+
+## 6. Traders (Short-Term)
+
+Buy and sell assets frequently to capitalize on short-term price movements.
+
+Active in: Equity markets, Forex, Derivatives, Cryptocurrencies.
+
+## 7. Brokers
+
+Facilitate transactions between buyers and sellers, earning commissions or fees.
+
+Active in: Equity markets, Forex, Derivatives, Bond markets.
+
+## 8. Asset Managers
+
+Manage portfolios on behalf of clients to achieve specific investment objectives.
+
+Active in: Equity markets, Bond markets, Real estate, Private equity.
+
+## 9. Custodians
+
+Safeguard and administer financial assets on behalf of clients.
+
+Active in: Equity markets, Bond markets, Mutual funds.
+
+## 10. Clearinghouses
+
+Ensure the settlement of trades and manage counterparty risk.
+
+Active in: Derivatives, Equity markets, Bond markets.
+
+## 11. Regulators
+
+Oversee market activity to ensure compliance and maintain market integrity.
+
+Active in: All markets.
+
+## 12. Exchanges
+
+Provide platforms for trading financial instruments.
+
+Active in: Equity markets, Derivatives, Forex, Commodities.
+
+## 13. Prime Brokers
+
+Provide services like leverage, lending, and clearing to large traders or funds.
+
+Active in: Equity markets, Derivatives, Forex.
+
+## 14. Quantitative Traders (Quants)
+
+Use mathematical models and algorithms to identify trading opportunities.
+
+Active in: Equity markets, Derivatives, Forex, Cryptocurrencies.
+
+## 15. Rating Agencies
+
+Assess the creditworthiness of issuers of debt securities.
+
+Active in: Bond markets, Structured finance.
+
+## 16. Underwriters
+
+Facilitate the issuance of new securities by assessing risk and pricing.
+
+Active in: Equity markets, Bond markets.
+
+## 17. Market Analysts/Research Firms
+
+Provide insights, forecasts, and analysis to inform market participants.
+
+Active in: All markets.
+
+## 18. Central Banks
+
+Influence monetary policy and provide liquidity to financial systems.
+
+Active in: Forex, Bond markets, Money markets.
+
+## 19. Sovereign Wealth Funds
+
+Invest government reserves in various assets globally.
+
+Active in: Equity markets, Bond markets, Real estate, Private equity.
+
+## 20. Insurers/Reinsurers
+
+Provide risk management through insurance products and invest premiums.
+
+Active in: Bond markets, Equity markets, Derivatives.
+
+## 21. Pension Funds
+
+Manage retirement savings, investing in long-term assets.
+
+Active in: Equity markets, Bond markets, Real estate.
+
+## 22. Mutual Funds/ETFs
+
+Pool capital from multiple investors to invest in diversified portfolios.
+
+Active in: Equity markets, Bond markets, Commodities.
+
+## 23. Family Offices
+
+Manage wealth and investments for high-net-worth families.
+
+Active in: Equity markets, Real estate, Private equity, Hedge funds.
+
+## 24. Non-Bank Financial Institutions (NBFIs)
+
+Provide financial services without a banking license (e.g., leasing, factoring).
+
+Active in: Credit markets, Private debt.
+
+# Institutional identities
+
+## 1. Commercial Banks
+
+Provide banking services (e.g., deposits, loans) and often engage in market-making, trading, and investment activities.
+
+Examples: JPMorgan Chase, HSBC, Bank of America.
+
+## 2. Investment Banks
+
+Specialize in capital raising, mergers and acquisitions (M&A), and advisory services.
+
+Examples: Goldman Sachs, Morgan Stanley, Barclays Investment Bank.
+
+## 3. Hedge Funds
+
+Pool capital from accredited investors to pursue high-risk, high-reward strategies.
+
+Examples: Bridgewater Associates, Renaissance Technologies, Citadel.
+
+## 4. Private Equity Firms
+
+Invest in private companies or buyouts, aiming for long-term growth and exits.
+
+Examples: Blackstone, KKR, Carlyle Group.
+
+## 5. Venture Capital Firms
+
+Provide early-stage funding to startups in exchange for equity.
+
+Examples: Sequoia Capital, Andreessen Horowitz, Accel.
+
+## 6. Asset Management Firms
+
+Manage investment portfolios on behalf of individuals, institutions, or funds.
+
+Examples: BlackRock, Vanguard, Fidelity Investments.
+
+## 7. Pension Funds
+
+Manage retirement savings for employees, investing in long-term assets.
+
+Examples: CalPERS, Canada Pension Plan Investment Board (CPPIB), Norway's Government Pension Fund Global.
+
+## 8. Sovereign Wealth Funds
+
+Invest government reserves in various assets globally.
+
+Examples: Saudi Arabia's Public Investment Fund (PIF), Singapore's GIC, Norway's Government Pension Fund Global.
+
+## 9. Insurance Companies
+
+Provide risk management through insurance products and invest premiums.
+
+Examples: Allianz, AXA, Prudential Financial.
+
+## 10. Mutual Funds
+
+Pool capital from retail and institutional investors to invest in diversified portfolios.
+
+Examples: Vanguard 500 Index Fund, Fidelity Contrafund.
+
+## 11. Exchange-Traded Funds (ETFs)
+
+Trade on exchanges like stocks and track indices, commodities, or sectors.
+
+Examples: SPDR S&P 500 ETF (SPY), iShares MSCI Emerging Markets ETF (EEM).
+
+## 12. Brokerage Firms
+
+Facilitate buying and selling of securities for clients, often providing research and advisory services.
+
+Examples: Charles Schwab, TD Ameritrade, Interactive Brokers.
+
+## 13. Clearinghouses
+
+Ensure the settlement of trades and manage counterparty risk.
+
+Examples: CME Group, LCH.Clearnet, DTCC.
+
+## 14. Stock Exchanges
+
+Provide platforms for trading equities, derivatives, and other securities.
+
+Examples: NYSE, NASDAQ, London Stock Exchange (LSE), Tokyo Stock Exchange (TSE).
+
+## 15. Central Banks
+
+Regulate monetary policy, manage currency, and ensure financial stability.
+
+Examples: Federal Reserve (Fed), European Central Bank (ECB), Bank of Japan (BoJ).
+
+## 16. Rating Agencies
+
+Assess the creditworthiness of issuers of debt securities.
+
+Examples: Moody's, Standard & Poor's (S&P), Fitch Ratings.
+
+## 17. Family Offices
+
+Manage wealth and investments for high-net-worth families.
+
+Examples: Rockefeller Capital Management, Bessemer Trust.
+
+## 18. Non-Bank Financial Institutions (NBFIs)
+
+Provide financial services without a banking license (e.g., leasing, factoring).
+
+Examples: GE Capital, CIT Group.
+
+## 19. Venture Debt Providers
+
+Offer debt financing to startups and growth-stage companies.
+
+Examples: Silicon Valley Bank, Hercules Capital.
+
+## 20. Real Estate Investment Trusts (REITs)
+
+Own and operate income-generating real estate properties.
+
+Examples: Simon Property Group, Prologis.
+
+## 21. Commodity Trading Firms
+
+Specialize in trading physical commodities (e.g., oil, metals, agricultural products).
+
+Examples: Glencore, Trafigura, Cargill.
+
+## 22. Cryptocurrency Exchanges
+
+Facilitate trading of cryptocurrencies and digital assets.
+
+Examples: Binance, Coinbase, Kraken.
+
+## 23. Market Data Providers
+
+Supply real-time and historical market data to participants.
+
+Examples: Bloomberg, Refinitiv, S&P Global Market Intelligence.
+
+## 24. Regulatory Bodies
+
+Oversee financial markets to ensure compliance and protect investors.
+
+Examples: SEC (U.S.), FCA (UK), ESMA (EU).
+
+## 25. Development Banks
+
+Provide financing for economic development projects, often in emerging markets.
+
+Examples: World Bank, Asian Development Bank (ADB), African Development Bank (AfDB).
+
+## 26. Microfinance Institutions
+
+Provide financial services to low-income individuals or small businesses.
+
+Examples: Grameen Bank, BRAC.
+
+## 27. Crowdfunding Platforms
+
+Enable individuals or businesses to raise capital from a large number of small investors.
+
+Examples: Kickstarter, Indiegogo, GoFundMe.
+
+## 28. Peer-to-Peer (P2P) Lending Platforms
+
+Facilitate loans between individuals or businesses without traditional intermediaries.
+
+Examples: LendingClub, Prosper, Funding Circle.
+
+## 29. Special Purpose Acquisition Companies (SPACs)
+
+Raise capital through IPOs to acquire or merge with private companies.
+
+Examples: Churchill Capital Corp IV, Pershing Square Tontine Holdings.
+
+## 30. Market Research Firms
+
+Provide insights, forecasts, and analysis to inform market participants.
+
+Examples: McKinsey & Company, Gartner, Forrester.

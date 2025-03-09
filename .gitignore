@@ -3,4 +3,4 @@ logs
 /**/__pycache__*
 /**/plotlogs*
 /**/results*
-/**/build*
+**/build

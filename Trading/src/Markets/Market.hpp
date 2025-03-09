@@ -2,6 +2,9 @@
 
 #include <iostream>
 #include <memory>
+#include <vector>
+
+#include "MarketTypes.hpp"
 
 namespace mkt {
 
@@ -13,8 +16,14 @@ protected:
     /// @brief market name
     std::string _market_name;
 
+    //---------- Market properties
+
+    int _liquidity_level;
+
+    int _regulation_level;
+
 public:
-    // ----------- Constructors
+    //----------- Constructors
 
     Market(std::string market_name);
 

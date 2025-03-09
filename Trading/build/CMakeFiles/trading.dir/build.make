@@ -128,10 +128,24 @@ CMakeFiles/trading.dir/src/Products/Options/CallEuropean.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading.dir/src/Products/Options/CallEuropean.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrien/Programmation/Projets/Quant/Trading/src/Products/Options/CallEuropean.cpp -o CMakeFiles/trading.dir/src/Products/Options/CallEuropean.cpp.s
 
+CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o: CMakeFiles/trading.dir/flags.make
+CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o: /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketTypes.cpp
+CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o: CMakeFiles/trading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o -MF CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o.d -o CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o -c /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketTypes.cpp
+
+CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketTypes.cpp > CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.i
+
+CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketTypes.cpp -o CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.s
+
 CMakeFiles/trading.dir/src/Markets/Market.cpp.o: CMakeFiles/trading.dir/flags.make
 CMakeFiles/trading.dir/src/Markets/Market.cpp.o: /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/Market.cpp
 CMakeFiles/trading.dir/src/Markets/Market.cpp.o: CMakeFiles/trading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trading.dir/src/Markets/Market.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/trading.dir/src/Markets/Market.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading.dir/src/Markets/Market.cpp.o -MF CMakeFiles/trading.dir/src/Markets/Market.cpp.o.d -o CMakeFiles/trading.dir/src/Markets/Market.cpp.o -c /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/Market.cpp
 
 CMakeFiles/trading.dir/src/Markets/Market.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/trading.dir/src/Markets/Market.cpp.s: cmake_force
 CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o: CMakeFiles/trading.dir/flags.make
 CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o: /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketBuilder.cpp
 CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o: CMakeFiles/trading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o -MF CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o.d -o CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o -c /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketBuilder.cpp
 
 CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.s: cmake_force
 CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o: CMakeFiles/trading.dir/flags.make
 CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o: /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketUtils.cpp
 CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o: CMakeFiles/trading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o -MF CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o.d -o CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o -c /home/adrien/Programmation/Projets/Quant/Trading/src/Markets/MarketUtils.cpp
 
 CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.i: cmake_force
@@ -176,6 +190,7 @@ trading_OBJECTS = \
 "CMakeFiles/trading.dir/src/Products/Product.cpp.o" \
 "CMakeFiles/trading.dir/src/Products/Options/Option.cpp.o" \
 "CMakeFiles/trading.dir/src/Products/Options/CallEuropean.cpp.o" \
+"CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o" \
 "CMakeFiles/trading.dir/src/Markets/Market.cpp.o" \
 "CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o" \
 "CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o"
@@ -187,13 +202,14 @@ trading: CMakeFiles/trading.dir/src/main.cpp.o
 trading: CMakeFiles/trading.dir/src/Products/Product.cpp.o
 trading: CMakeFiles/trading.dir/src/Products/Options/Option.cpp.o
 trading: CMakeFiles/trading.dir/src/Products/Options/CallEuropean.cpp.o
+trading: CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o
 trading: CMakeFiles/trading.dir/src/Markets/Market.cpp.o
 trading: CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.o
 trading: CMakeFiles/trading.dir/src/Markets/MarketUtils.cpp.o
 trading: CMakeFiles/trading.dir/build.make
 trading: CMakeFiles/trading.dir/compiler_depend.ts
 trading: CMakeFiles/trading.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable trading"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adrien/Programmation/Projets/Quant/Trading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable trading"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trading.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

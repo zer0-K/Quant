@@ -177,6 +177,30 @@ src/Markets/MarketBuilder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading.dir/build.make CMakeFiles/trading.dir/src/Markets/MarketBuilder.cpp.s
 .PHONY : src/Markets/MarketBuilder.cpp.s
 
+src/Markets/MarketTypes.o: src/Markets/MarketTypes.cpp.o
+.PHONY : src/Markets/MarketTypes.o
+
+# target to build an object file
+src/Markets/MarketTypes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading.dir/build.make CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.o
+.PHONY : src/Markets/MarketTypes.cpp.o
+
+src/Markets/MarketTypes.i: src/Markets/MarketTypes.cpp.i
+.PHONY : src/Markets/MarketTypes.i
+
+# target to preprocess a source file
+src/Markets/MarketTypes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading.dir/build.make CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.i
+.PHONY : src/Markets/MarketTypes.cpp.i
+
+src/Markets/MarketTypes.s: src/Markets/MarketTypes.cpp.s
+.PHONY : src/Markets/MarketTypes.s
+
+# target to generate assembly for a file
+src/Markets/MarketTypes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading.dir/build.make CMakeFiles/trading.dir/src/Markets/MarketTypes.cpp.s
+.PHONY : src/Markets/MarketTypes.cpp.s
+
 src/Markets/MarketUtils.o: src/Markets/MarketUtils.cpp.o
 .PHONY : src/Markets/MarketUtils.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... src/Markets/MarketBuilder.o"
 	@echo "... src/Markets/MarketBuilder.i"
 	@echo "... src/Markets/MarketBuilder.s"
+	@echo "... src/Markets/MarketTypes.o"
+	@echo "... src/Markets/MarketTypes.i"
+	@echo "... src/Markets/MarketTypes.s"
 	@echo "... src/Markets/MarketUtils.o"
 	@echo "... src/Markets/MarketUtils.i"
 	@echo "... src/Markets/MarketUtils.s"
