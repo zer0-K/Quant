@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Products/Options/CallEuropean.hpp"
+#include "Products/Contracts/Options/CallEuropean.hpp"
 
 int main(int argc, char* argv[])
 {

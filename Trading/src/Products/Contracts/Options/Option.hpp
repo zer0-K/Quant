@@ -2,7 +2,7 @@
 
 #include <memory>
 
-#include "../Product.hpp"
+#include "../../Product.hpp"
 
 namespace prdt {
 namespace opt {

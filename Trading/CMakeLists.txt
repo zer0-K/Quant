@@ -34,12 +34,12 @@ set(SOURCES_AGENTS
 # ******************** common/"global"
 
 set(HEADERS_MARKETS 
-    src/Markets/MarketTypes.hpp src/Markets/Market.hpp src/Markets/MarketBuilder.hpp 
+    src/Markets/MarketTypes.hpp src/Markets/Market.hpp 
     src/Markets/MarketUtils.hpp
 )
 
 set(SOURCES_MARKETS     
-    src/Markets/MarketTypes.cpp src/Markets/Market.cpp src/Markets/MarketBuilder.cpp 
+    src/Markets/MarketTypes.cpp src/Markets/Market.cpp 
     src/Markets/MarketUtils.cpp
 )
 
@@ -50,13 +50,13 @@ set(SOURCES_MARKETS
 # ******************** options
 
 set(HEADERS_PRDT_OPTIONS 
-    src/Products/Options/Option.hpp
-    src/Products/Options/CallEuropean.hpp
+    src/Products/Contracts/Options/Option.hpp
+    src/Products/Contracts/Options/CallEuropean.hpp
 )
 
 set(SOURCES_PRDT_OPTIONS     
-    src/Products/Options/Option.cpp
-    src/Products/Options/CallEuropean.cpp
+    src/Products/Contracts/Options/Option.cpp
+    src/Products/Contracts/Options/CallEuropean.cpp
 )
 
 # ******************** common
